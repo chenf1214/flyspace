@@ -6,18 +6,21 @@
         flyspace
       </h1>
       <h2 class="subtitle">
-        Welcome to the iView + Nuxt.js template
+        Welcome 飞飞的个人空间
       </h2>
       <div class="links">
-        <Button type="primary" target="_blank" to="https://nuxtjs.org/">
-          Documentation
+        <Button type="primary" target="_blank">
+          Documentation 
         </Button>
-        <Button target="_blank" to="https://github.com/nuxt/nuxt.js">
+        <Button>
           GitHub
         </Button>
-        <Button target="_blank" to="https://www.iviewui.com/">
+        <Button>
           iView
         </Button>
+      </div>
+      <div class="beian">
+       <a href="http://www.beian.miit.gov.cn"> 备案号：黑ICP备18003910号</a>
       </div>
     </div>
   </div>
@@ -33,6 +36,13 @@ export default {
 </script>
 
 <style>
+.beian {
+  margin-top: 100px;
+  font-size: 16px;
+}
+.beian a{
+  color: #333;
+}
 .container {
   margin: 0 auto;
   min-height: 100vh;
